@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDB70F62334B4D700866CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB70F52334B4D700866CA8 /* AppDelegate.swift */; };
+		ACDB70F82334B4D700866CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB70F72334B4D700866CA8 /* ViewController.swift */; };
+		ACDB70FB2334B4D700866CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDB70F92334B4D700866CA8 /* Main.storyboard */; };
+		ACDB70FD2334B4D800866CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDB70FC2334B4D800866CA8 /* Assets.xcassets */; };
+		ACDB71002334B4D800866CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDB70FE2334B4D800866CA8 /* LaunchScreen.storyboard */; };
+		ACDB710B2334B4D800866CA8 /* Tap_Or_Hold_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB710A2334B4D800866CA8 /* Tap_Or_Hold_CounterTests.swift */; };
+		ACDB71162334B4D800866CA8 /* Tap_Or_Hold_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDB71152334B4D800866CA8 /* Tap_Or_Hold_CounterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDB71072334B4D800866CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDB70EA2334B4D700866CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDB70F12334B4D700866CA8;
+			remoteInfo = "Tap Or Hold Counter";
+		};
+		ACDB71122334B4D800866CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDB70EA2334B4D700866CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDB70F12334B4D700866CA8;
+			remoteInfo = "Tap Or Hold Counter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDB70F22334B4D700866CA8 /* Tap Or Hold Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Or Hold Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDB70F52334B4D700866CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDB70F72334B4D700866CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACDB70FA2334B4D700866CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDB70FC2334B4D800866CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDB70FF2334B4D800866CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDB71012334B4D800866CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDB71062334B4D800866CA8 /* Tap Or Hold CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Or Hold CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDB710A2334B4D800866CA8 /* Tap_Or_Hold_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Or_Hold_CounterTests.swift; sourceTree = "<group>"; };
+		ACDB710C2334B4D800866CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDB71112334B4D800866CA8 /* Tap Or Hold CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap Or Hold CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDB71152334B4D800866CA8 /* Tap_Or_Hold_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_Or_Hold_CounterUITests.swift; sourceTree = "<group>"; };
+		ACDB71172334B4D800866CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDB70EF2334B4D700866CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB71032334B4D800866CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB710E2334B4D800866CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDB70E92334B4D700866CA8 = {
+			isa = PBXGroup;
+			children = (
+				ACDB70F42334B4D700866CA8 /* Tap Or Hold Counter */,
+				ACDB71092334B4D800866CA8 /* Tap Or Hold CounterTests */,
+				ACDB71142334B4D800866CA8 /* Tap Or Hold CounterUITests */,
+				ACDB70F32334B4D700866CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDB70F32334B4D700866CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB70F22334B4D700866CA8 /* Tap Or Hold Counter.app */,
+				ACDB71062334B4D800866CA8 /* Tap Or Hold CounterTests.xctest */,
+				ACDB71112334B4D800866CA8 /* Tap Or Hold CounterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDB70F42334B4D700866CA8 /* Tap Or Hold Counter */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB70F52334B4D700866CA8 /* AppDelegate.swift */,
+				ACDB70F72334B4D700866CA8 /* ViewController.swift */,
+				ACDB70F92334B4D700866CA8 /* Main.storyboard */,
+				ACDB70FC2334B4D800866CA8 /* Assets.xcassets */,
+				ACDB70FE2334B4D800866CA8 /* LaunchScreen.storyboard */,
+				ACDB71012334B4D800866CA8 /* Info.plist */,
+			);
+			path = "Tap Or Hold Counter";
+			sourceTree = "<group>";
+		};
+		ACDB71092334B4D800866CA8 /* Tap Or Hold CounterTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB710A2334B4D800866CA8 /* Tap_Or_Hold_CounterTests.swift */,
+				ACDB710C2334B4D800866CA8 /* Info.plist */,
+			);
+			path = "Tap Or Hold CounterTests";
+			sourceTree = "<group>";
+		};
+		ACDB71142334B4D800866CA8 /* Tap Or Hold CounterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDB71152334B4D800866CA8 /* Tap_Or_Hold_CounterUITests.swift */,
+				ACDB71172334B4D800866CA8 /* Info.plist */,
+			);
+			path = "Tap Or Hold CounterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDB70F12334B4D700866CA8 /* Tap Or Hold Counter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDB711A2334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold Counter" */;
+			buildPhases = (
+				ACDB70EE2334B4D700866CA8 /* Sources */,
+				ACDB70EF2334B4D700866CA8 /* Frameworks */,
+				ACDB70F02334B4D700866CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Or Hold Counter";
+			productName = "Tap Or Hold Counter";
+			productReference = ACDB70F22334B4D700866CA8 /* Tap Or Hold Counter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDB71052334B4D800866CA8 /* Tap Or Hold CounterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDB711D2334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterTests" */;
+			buildPhases = (
+				ACDB71022334B4D800866CA8 /* Sources */,
+				ACDB71032334B4D800866CA8 /* Frameworks */,
+				ACDB71042334B4D800866CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDB71082334B4D800866CA8 /* PBXTargetDependency */,
+			);
+			name = "Tap Or Hold CounterTests";
+			productName = "Tap Or Hold CounterTests";
+			productReference = ACDB71062334B4D800866CA8 /* Tap Or Hold CounterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDB71102334B4D800866CA8 /* Tap Or Hold CounterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDB71202334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterUITests" */;
+			buildPhases = (
+				ACDB710D2334B4D800866CA8 /* Sources */,
+				ACDB710E2334B4D800866CA8 /* Frameworks */,
+				ACDB710F2334B4D800866CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDB71132334B4D800866CA8 /* PBXTargetDependency */,
+			);
+			name = "Tap Or Hold CounterUITests";
+			productName = "Tap Or Hold CounterUITests";
+			productReference = ACDB71112334B4D800866CA8 /* Tap Or Hold CounterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDB70EA2334B4D700866CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "ZiyoMukhammad Usmonov";
+				TargetAttributes = {
+					ACDB70F12334B4D700866CA8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					ACDB71052334B4D800866CA8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ACDB70F12334B4D700866CA8;
+					};
+					ACDB71102334B4D800866CA8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = ACDB70F12334B4D700866CA8;
+					};
+				};
+			};
+			buildConfigurationList = ACDB70ED2334B4D700866CA8 /* Build configuration list for PBXProject "Tap Or Hold Counter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDB70E92334B4D700866CA8;
+			productRefGroup = ACDB70F32334B4D700866CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDB70F12334B4D700866CA8 /* Tap Or Hold Counter */,
+				ACDB71052334B4D800866CA8 /* Tap Or Hold CounterTests */,
+				ACDB71102334B4D800866CA8 /* Tap Or Hold CounterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDB70F02334B4D700866CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB71002334B4D800866CA8 /* LaunchScreen.storyboard in Resources */,
+				ACDB70FD2334B4D800866CA8 /* Assets.xcassets in Resources */,
+				ACDB70FB2334B4D700866CA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB71042334B4D800866CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB710F2334B4D800866CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDB70EE2334B4D700866CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB70F82334B4D700866CA8 /* ViewController.swift in Sources */,
+				ACDB70F62334B4D700866CA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB71022334B4D800866CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB710B2334B4D800866CA8 /* Tap_Or_Hold_CounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDB710D2334B4D800866CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDB71162334B4D800866CA8 /* Tap_Or_Hold_CounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDB71082334B4D800866CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDB70F12334B4D700866CA8 /* Tap Or Hold Counter */;
+			targetProxy = ACDB71072334B4D800866CA8 /* PBXContainerItemProxy */;
+		};
+		ACDB71132334B4D800866CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDB70F12334B4D700866CA8 /* Tap Or Hold Counter */;
+			targetProxy = ACDB71122334B4D800866CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDB70F92334B4D700866CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDB70FA2334B4D700866CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDB70FE2334B4D800866CA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDB70FF2334B4D800866CA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDB71182334B4D800866CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDB71192334B4D800866CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDB711B2334B4D800866CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM62RPE5TH;
+				INFOPLIST_FILE = "Tap Or Hold Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDB711C2334B4D800866CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM62RPE5TH;
+				INFOPLIST_FILE = "Tap Or Hold Counter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-Counter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDB711E2334B4D800866CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Or Hold CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Or Hold Counter.app/Tap Or Hold Counter";
+			};
+			name = Debug;
+		};
+		ACDB711F2334B4D800866CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Or Hold CounterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-CounterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tap Or Hold Counter.app/Tap Or Hold Counter";
+			};
+			name = Release;
+		};
+		ACDB71212334B4D800866CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Or Hold CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap Or Hold Counter";
+			};
+			name = Debug;
+		};
+		ACDB71222334B4D800866CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Or Hold CounterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ziyomukhammad.Tap-Or-Hold-CounterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tap Or Hold Counter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDB70ED2334B4D700866CA8 /* Build configuration list for PBXProject "Tap Or Hold Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDB71182334B4D800866CA8 /* Debug */,
+				ACDB71192334B4D800866CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDB711A2334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold Counter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDB711B2334B4D800866CA8 /* Debug */,
+				ACDB711C2334B4D800866CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDB711D2334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDB711E2334B4D800866CA8 /* Debug */,
+				ACDB711F2334B4D800866CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDB71202334B4D800866CA8 /* Build configuration list for PBXNativeTarget "Tap Or Hold CounterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDB71212334B4D800866CA8 /* Debug */,
+				ACDB71222334B4D800866CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDB70EA2334B4D700866CA8 /* Project object */;
+}
